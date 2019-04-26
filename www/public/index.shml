@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SHML <% std_lib_version() %></title>
+</head>
+<body>
+<!--
+
+Block comment...
+
+-->
+<h1>It worked! <% print("Welcome to the SHML.") %></h1>
+<!-- Inline comment -->
+<hr>
+<h1><% hello_world() %></h1>
+<h2><% date(%Y-%m-%d) %></h2>
+
+<pre>
+<h2>source code</h2>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;SHML &lt;% std_lib_version() %&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;!--
+
+Block comment...
+
+--&gt;
+&lt;h1&gt;It worked! &lt;% print("Welcome to the SHML.") %&gt;&lt;/h1&gt;
+&lt;!-- Inline comment --&gt;
+&lt;hr&gt;
+&lt;h1&gt;&lt;% hello_world() %&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;% date(%Y-%m-%d) %&gt;&lt;/h2&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+</body>
+</html>
