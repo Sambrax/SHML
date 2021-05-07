@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SHML <% version() %></title>
+</head>
+<body>
+<!--
+
+Block comment...
+
+-->
+<h1>It worked! <% print("Welcome!") %></h1>
+<!-- Inline comment -->
+<hr>
+<h1><% hello_world() %></h1>
+<h2><% date(%Y-%m-%d) %></h2>
+</body>
+</html>
