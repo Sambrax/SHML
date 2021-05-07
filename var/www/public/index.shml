@@ -12,7 +12,7 @@ Block comment...
 <h1>It worked! <% print("Welcome!") %></h1>
 <!-- Inline comment -->
 <hr>
-<h1><% hello_world() %></h1>
-<h2><% date(%Y-%m-%d) %></h2>
+<h2><% hello_world() %></h2>
+<h3><% date(%Y-%m-%d) %></h3>
 </body>
 </html>
