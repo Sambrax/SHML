@@ -22,9 +22,9 @@ _root@debian:~#_ **sh install.sh**
 
 ![ScreenShot](https://raw.githubusercontent.com/Renexo-git/SHML/master/04.png)
 
-#### Place the index.shml file in your server's public directory
+### Place the index.shml file in the public directory of the web server.
 
-index.shml
+**index.shml**
 
 ```
 <!DOCTYPE html>
