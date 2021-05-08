@@ -46,3 +46,6 @@ Block comment...
 </body>
 </html>
 ```
+### Output
+
+![ScreenShot](https://raw.githubusercontent.com/Renexo-git/SHML/master/05.png)
