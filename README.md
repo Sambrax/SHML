@@ -21,3 +21,26 @@ _root@debian:~#_ **sh install.sh**
 ![ScreenShot](https://raw.githubusercontent.com/Renexo-git/SHML/master/03.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/Renexo-git/SHML/master/04.png)
+
+**index.shml**
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>SHML <% version() %></title>
+</head>
+<body>
+<!--
+
+Block comment...
+
+-->
+<h1>It worked! <% print("Welcome!") %></h1>
+<!-- Inline comment -->
+<hr>
+<h2><% hello_world() %></h2>
+<h3><% date(%Y-%m-%d) %></h3>
+</body>
+</html>
+```
