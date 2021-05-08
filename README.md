@@ -2,7 +2,7 @@
 
 ## **INSTALL**
 
-Requirements: **fcgiwrap, Web Server (Apache2 or Nginx)**
+Requirements: **fcgiwrap, Web Server (Apache2 | Nginx)**
 
 ### _LINUX_
 
