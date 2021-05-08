@@ -27,6 +27,8 @@ conf() {
         ln -s /etc/$server/sites-available/shml.conf /etc/$server/sites-enabled/
         rm -rf /tmp/SHML-master
         rm /tmp/master.zip
+        clear
+        echo ''
         read -p 'Enter the server port number - [ Default => 8080 ]: ' port
         echo ''
         if [ $port -ne 8080 ]
@@ -34,7 +36,9 @@ conf() {
             sed "s/8080/$port/" /etc/$server/sites-available/shml.conf > /etc/$server/sites-available/_shml.conf
             mv /etc/$server/sites-available/_shml.conf /etc/$server/sites-available/shml.conf
         fi
-        read -p 'Enter the path of the public folder of the server - [ Default => /var/www/public ]: ' root
+        clear
+        echo ''
+        read -p 'Enter the path of the public folder - [ Default => /var/www/public ]: ' root
         echo ''
         if [ $root != '/var/www/public' ]
         then
@@ -49,7 +53,10 @@ if [ $op -eq 1 ]
 then
     server='apache2'
     echo '1 - Apache2'
-    conf
+    echo ''
+    echo 'We are still developing Apache2 settings. Use Nginx!'
+    echo ''
+    #conf
 else
     if [ $op -eq 2 ]
     then
