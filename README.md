@@ -26,7 +26,7 @@ _root@debian:~#_ **sh install.sh**
 
 **index.shml**
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
