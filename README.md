@@ -1,5 +1,7 @@
 # SHML
 
+ShellScript Hypertext Markup Language - Generates dynamic HTML content via ShellScript. 
+
 ## **INSTALL**
 
 Requirements: **FCGI Wrap, Web Server (Apache2 | Nginx)**
