@@ -28,6 +28,12 @@ Download - [install.sh](https://raw.githubusercontent.com/Renexo-git/SHML/master
 
 _root@debian:~#_ **sh install.sh**
 
+---
+
+Your shell functions must be declared or included in the file: **/usr/share/shml/library.sh**
+
+---
+
 ![ScreenShot](https://raw.githubusercontent.com/Renexo-git/SHML/master/01.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/Renexo-git/SHML/master/02.png)
