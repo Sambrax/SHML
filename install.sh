@@ -14,6 +14,17 @@ conf() {
     clear
     if [ -d "/etc/$server/sites-available/" ]
     then
+        if test -f "/etc/$server/sites-available/shml.conf"; then
+            echo ''
+            read -p 'The shml.conf file already exists! Do you want to replace? [y,n]: ' flag
+            echo ''
+            if [ "$flag" = "y" ] || [ "$flag" = "Y" ]; then
+                rm -f /etc/$server/sites-available/shml.conf
+                rm -f /etc/$server/sites-enabled/shml.conf
+            else
+                exit
+            fi
+        fi
         cd /tmp
         wget https://github.com/Renexo-git/SHML/archive/refs/heads/master.zip
         unzip master.zip
