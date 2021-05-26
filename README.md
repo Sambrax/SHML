@@ -12,6 +12,14 @@ _debian@debian:~$_ **su**
 
 _root@debian:~#_ **apt install fcgiwrap**
 
+**Apache2**
+
+_debian@debian:~$_ **su -**
+
+_root@debian:~#_ **a2enmod rewrite**
+
+_root@debian:~#_ **a2enmod proxy_fcgi**
+
 _root@debian:~#_ **sh install.sh**
 
 ![ScreenShot](https://raw.githubusercontent.com/Renexo-git/SHML/master/01.png)
