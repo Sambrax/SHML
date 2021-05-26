@@ -33,8 +33,7 @@ conf() {
         echo ''
         if [ $port -ne 8080 ]
         then
-            sed "s/8080/$port/" /etc/$server/sites-available/shml.conf > /etc/$server/sites-available/_shml.conf
-            mv /etc/$server/sites-available/_shml.conf /etc/$server/sites-available/shml.conf
+            sed -i "s/8080/$port/" /etc/$server/sites-available/shml.conf
         fi
         clear
         echo ''
