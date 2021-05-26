@@ -41,7 +41,7 @@ conf() {
         echo ''
         if [ $root != '/var/www/public' ]
         then
-            sed -i "/root/c \   \ root ${root};" /etc/$server/sites-available/shml.conf
+            sed -i "s/\/var\/www\/public/${root}/g" /etc/$server/sites-available/shml.conf
         fi
         /etc/init.d/$server restart
     else
