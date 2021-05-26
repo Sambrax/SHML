@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo "Content-type: text/html"
 echo ""
-$DOCUMENT=$DOCUMENT_ROOT$DOCUMENT_URI
+DOCUMENT=$DOCUMENT_ROOT$DOCUMENT_URI
 if test -f "$DOCUMENT"; then
     awk -f "./parser.awk" $DOCUMENT $@
 else
