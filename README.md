@@ -4,7 +4,7 @@
 
 Requirements: **FCGI Wrap, Web Server (Apache2 | Nginx)**
 
-### _LINUX_
+### _LINUX_ (Debian)
 
 **FCGI Wrap**
 
@@ -12,7 +12,7 @@ _debian@debian:~$_ **su**
 
 _root@debian:~#_ **apt install fcgiwrap**
 
-**Apache2**
+**Apache2 Modules**
 
 _debian@debian:~$_ **su -**
 
