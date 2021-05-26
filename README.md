@@ -22,6 +22,8 @@ _root@debian:~#_ **a2enmod proxy_fcgi**
 
 _root@debian:~#_ **/etc/init.d/apache2 restart**
 
+---
+
 **SHML**
 
 Download - [install.sh](https://raw.githubusercontent.com/Renexo-git/SHML/master/install.sh)
