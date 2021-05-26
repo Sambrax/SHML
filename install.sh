@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 clear
 echo ''
 echo 'Which web server do you want to configure SHML for?'
@@ -53,10 +53,7 @@ if [ $op -eq 1 ]
 then
     server='apache2'
     echo '1 - Apache2'
-    echo ''
-    echo 'We are still developing Apache2 settings. Use Nginx!'
-    echo ''
-    #conf
+    conf
 else
     if [ $op -eq 2 ]
     then
