@@ -2,11 +2,11 @@
 
 ## **INSTALL**
 
-Requirements: **fcgiwrap, Web Server (Apache2 | Nginx)**
+Requirements: **FCGI Wrap, Web Server (Apache2 | Nginx)**
 
 ### _LINUX_
 
-Download - [install.sh](https://raw.githubusercontent.com/Renexo-git/SHML/master/install.sh)
+**FCGI Wrap**
 
 _debian@debian:~$_ **su**
 
@@ -19,6 +19,12 @@ _debian@debian:~$_ **su -**
 _root@debian:~#_ **a2enmod rewrite**
 
 _root@debian:~#_ **a2enmod proxy_fcgi**
+
+_root@debian:~#_ **/etc/init.d/apache2 restart**
+
+**SHML**
+
+Download - [install.sh](https://raw.githubusercontent.com/Renexo-git/SHML/master/install.sh)
 
 _root@debian:~#_ **sh install.sh**
 
